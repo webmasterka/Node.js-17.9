@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="margin: 0 auto; text-align: center;">
+        <h1>Wgraj plik</h1>
+        <form style="margin: 20px 5px;" action="/upload" enctype="multipart/form-data" method="post">
+            <label>Tytuł pliku</label>
+            <input style="margin: 10px 5px;" type="text" name="title">
+            <br>
+            <label style="margin-left: 50px">Plik</label>
+            <input style="margin: 10px 5px;" type="file" name="upload" multiple="multiple"><br>
+            <input style="margin: 10px 5px;" type="submit" value="Wyślij">
+        </form>
+    </body>
+</html>
